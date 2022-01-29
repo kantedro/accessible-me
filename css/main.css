@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #ACC8E5;
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,9 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  color: #112A46;
 }
+
 
 .container {
   max-width: 1080px;
@@ -68,4 +70,25 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+.current a:link{
+  background-color: white;
+}
+
+.skip-link a{
+  position: absolute;
+  left: -10000px;
+  top: auto;width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+p {
+  font-size: 18px;
+  color: #112A46;
+}
+li{
+  font-size: 18px;
+  color: #112A46;
 }
